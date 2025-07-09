@@ -1,9 +1,3 @@
-<!--
-  Core Framework - View File
-
-  @license    MIT (https://mit-license.org/)
-  @author     Louis Ouellet <louis@laswitchtech.com>
--->
 <?php
 
 // Define the end of line character based on the environment

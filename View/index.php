@@ -1,9 +1,3 @@
-<!--
-  Core Framework - View File
-
-  @license MIT (https://mit-license.org/)
-  @author  Louis Ouellet <louis@laswitchtech.com>
--->
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,7 +10,7 @@
                     $(this).parent().hide();
                 });
                 $.ajax({
-                    url: '/endpoint.php/debug/execute',
+                    url: '/api/debug/execute',
                     type: 'GET',
                     dataType: 'json',
                     success: function(response) {
